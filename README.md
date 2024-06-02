@@ -8,7 +8,7 @@ Este repositorio contiene un template de implementación de una Organización Au
 
 ### Prerrequisitos
 
-Está permitido utilizar una de las siguientes herramientas para el desarrollo y despliegue:
+Está permitido utilizar una de las siguientes herramientas para el desarrollo y deployment:
 - Remix (recomendado, dado lo que vimos en la materia)
 - Truffle
 - Hardhat
@@ -35,8 +35,8 @@ truffle test
 npx hardhat test
 ```
 
-## Despliegue
-Para deployat los contratos a una red local (para Truffle o Hardhat):
+## Deploy
+Para deployar los contratos a una red local (para Truffle o Hardhat):
 
 ```bash
 truffle migrate --network development
