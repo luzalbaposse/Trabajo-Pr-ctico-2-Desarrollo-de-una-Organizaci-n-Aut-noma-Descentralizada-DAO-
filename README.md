@@ -21,7 +21,7 @@ Si deciden usar Truffle, Hardhat o Foundry, sigan estos pasos. De lo contrario, 
 Clonar el repositorio e instalar las dependencias (para Foundry, Truffle o Hardhat):
 
 ```bash
-git clone https://github.com/yourusername/dao-project.git
+git clone https://github.com/luzalbaposse/desarrollo-de-una-dao
 cd dao-project
 npm install
 ```
