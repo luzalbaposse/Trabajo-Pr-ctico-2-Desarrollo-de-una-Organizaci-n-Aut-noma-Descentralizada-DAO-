@@ -48,6 +48,6 @@ Para Remix, pueden deployar los contratos directamente copiando los archivos DAO
 
 ## Estructura del Proyecto
 `contracts/:` Contiene los smart contracts.
-`tests/:` Contiene los scripts de prueba para los contratos inteligentes.
+`tests/:` Contiene los scripts de prueba para los contratos.
 `scripts/:`Contiene los scripts de deploy y otros scripts auxiliares (para Hardhat).
 `migrations/:` Contiene los scripts de migración (para Truffle).
