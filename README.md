@@ -8,7 +8,7 @@ Este repositorio contiene un template de implementación de una Organización Au
 
 ### Prerrequisitos
 
-Está permitido utilizar una de las siguientes herramientas para el desarrollo y despliegue:
+Está permitido utilizar una de las siguientes herramientas para el desarrollo y deployment:
 - Remix (recomendado, dado lo que vimos en la materia)
 - Truffle
 - Hardhat
@@ -21,7 +21,7 @@ Si deciden usar Truffle, Hardhat o Foundry, sigan estos pasos. De lo contrario, 
 Clonar el repositorio e instalar las dependencias (para Foundry, Truffle o Hardhat):
 
 ```bash
-git clone https://github.com/yourusername/dao-project.git
+git clone https://github.com/luzalbaposse/desarrollo-de-una-dao
 cd dao-project
 npm install
 ```
@@ -35,8 +35,8 @@ truffle test
 npx hardhat test
 ```
 
-## Despliegue
-Para deployat los contratos a una red local (para Truffle o Hardhat):
+## Deploy
+Para deployar los contratos a una red local (para Truffle o Hardhat):
 
 ```bash
 truffle migrate --network development
@@ -48,6 +48,6 @@ Para Remix, pueden deployar los contratos directamente copiando los archivos DAO
 
 ## Estructura del Proyecto
 `contracts/:` Contiene los smart contracts.
-`tests/:` Contiene los scripts de prueba para los contratos inteligentes.
+`tests/:` Contiene los scripts de prueba para los contratos.
 `scripts/:`Contiene los scripts de deploy y otros scripts auxiliares (para Hardhat).
 `migrations/:` Contiene los scripts de migración (para Truffle).
