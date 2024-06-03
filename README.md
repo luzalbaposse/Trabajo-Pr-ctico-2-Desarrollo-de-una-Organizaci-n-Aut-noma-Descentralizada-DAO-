@@ -22,7 +22,7 @@ Clonar el repositorio e instalar las dependencias (para Foundry, Truffle o Hardh
 
 ```bash
 git clone https://github.com/luzalbaposse/desarrollo-de-una-dao
-cd dao-project
+cd desarrollo-de-una-dao
 npm install
 ```
 
